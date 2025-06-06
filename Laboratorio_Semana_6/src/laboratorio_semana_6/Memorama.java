@@ -6,7 +6,7 @@ import java.awt.event.ActionListener;
 import java.util.*;
 
 public class Memorama extends javax.swing.JFrame {
-    
+
     private JButton[] botones;
     private ImageIcon[] imagenes;
     private ImageIcon oculta;
@@ -20,7 +20,36 @@ public class Memorama extends javax.swing.JFrame {
 
     public Memorama() {
         initComponents();
+        iniciarJuego();
     }
+
+    private void iniciarJuego() {
+        botones = new JButton[36];
+        imagenes = new ImageIcon[18];
+        cartas = new int[36];
+        correctas = new boolean[36];
+        primera = -1;
+        segunda = -1;
+        esperando = false;
+        intentos = 0;
+        terminado = false;
+
+        cargarImagenes();
+        lblIntentosRestantes.setText("Intentos Restantes: 10");
+    }
+    
+     private void cargarImagenes() {
+        oculta = new ImageIcon(getClass().getResource("/imagenes/pokebola.jpeg"));
+        
+        String[] nombres = {"ft1.jpg", "ft2.jpg", "ft3.jpg", "ft4.jpg", "ft5.jpg", "ft6.jpg",
+            "ft7.jpg", "ft8.jpg", "ft9.jpg", "ft10.jpg", "ft11.jpg", "ft12.jpg",
+            "ft13.jpg", "ft14.jpg", "ft15.jpg", "ft16.png", "ft17.jpg", "ft18.jpg"};
+        
+        for (int i = 0; i < 18; i++) {
+            imagenes[i] = new ImageIcon(getClass().getResource("/imagenes/" + nombres[i]));
+        }
+    }
+
 
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
