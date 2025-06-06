@@ -38,7 +38,7 @@ public class Memorama extends javax.swing.JFrame {
         ponerBotones();
         mezclarCartas();
         ponerListeners();
-        lblIntentosRestantes.setText("Intentos Restantes: "+30);
+        lblIntentosRestantes.setText("Intentos Restantes: " + 10);
     }
 
     private void cargarImagenes() {
@@ -137,7 +137,7 @@ public class Memorama extends javax.swing.JFrame {
             segunda = num;
             esperando = true;
             intentos++;
-            lblIntentosRestantes.setText("Intentos Restantes: " + (30 - intentos));
+            lblIntentosRestantes.setText("Intentos Restantes: " + (10 - intentos));
 
             if (cartas[primera] == cartas[segunda]) {
                 correctas[primera] = true;
@@ -188,7 +188,7 @@ public class Memorama extends javax.swing.JFrame {
     }
 
     private boolean verificarPerdiste() {
-        return intentos >= 30;
+        return intentos >= 10;
     }
 
     private void mostrarGanaste() {
@@ -209,7 +209,26 @@ public class Memorama extends javax.swing.JFrame {
             System.exit(0);
         }
     }
-    
+
+    private void reiniciarJuego() {
+        primera = -1;
+        segunda = -1;
+        esperando = false;
+        intentos = 0;
+        terminado = false;
+
+        for (int i = 0; i < 36; i++) {
+            correctas[i] = false;
+        }
+
+        for (int i = 0; i < 36; i++) {
+            botones[i].setIcon(oculta);
+        }
+
+        mezclarCartas();
+        lblIntentosRestantes.setText("Intentos Restantes: 10");
+    }
+
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
@@ -255,6 +274,7 @@ public class Memorama extends javax.swing.JFrame {
         btnBoton35 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setResizable(false);
 
         jPanel1.setLayout(new java.awt.GridLayout(6, 6, 6, 6));
 
