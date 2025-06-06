@@ -1,4 +1,4 @@
-package laboratorio_semana_6;
+    package laboratorio_semana_6;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -35,10 +35,13 @@ public class Memorama extends javax.swing.JFrame {
         terminado = false;
 
         cargarImagenes();
+        ponerBotones();
+        mezclarCartas();
+        ponerListeners();
         lblIntentosRestantes.setText("Intentos Restantes: 10");
     }
     
-     private void cargarImagenes() {
+    private void cargarImagenes() {
         oculta = new ImageIcon(getClass().getResource("/imagenes/pokebola.jpeg"));
         
         String[] nombres = {"ft1.jpg", "ft2.jpg", "ft3.jpg", "ft4.jpg", "ft5.jpg", "ft6.jpg",
@@ -49,7 +52,73 @@ public class Memorama extends javax.swing.JFrame {
             imagenes[i] = new ImageIcon(getClass().getResource("/imagenes/" + nombres[i]));
         }
     }
-
+    
+    private void ponerBotones() {
+        botones[0] = btnBoton;
+        botones[1] = btnBoton1;
+        botones[2] = btnBoton2;
+        botones[3] = btnBoton3;
+        botones[4] = btnBoton4;
+        botones[5] = btnBoton5;
+        botones[6] = btnBoton6;
+        botones[7] = btnBoton7;
+        botones[8] = btnBoton8;
+        botones[9] = btnBoton9;
+        botones[10] = btnBoton10;
+        botones[11] = btnBoton11;
+        botones[12] = btnBoton12;
+        botones[13] = btnBoton13;
+        botones[14] = btnBoton14;
+        botones[15] = btnBoton15;
+        botones[16] = btnBoton16;
+        botones[17] = btnBoton17;
+        botones[18] = btnBoton18;
+        botones[19] = btnBoton19;
+        botones[20] = btnBoton20;
+        botones[21] = btnBoton21;
+        botones[22] = btnBoton22;
+        botones[23] = btnBoton23;
+        botones[24] = btnBoton24;
+        botones[25] = btnBoton25;
+        botones[26] = btnBoton26;
+        botones[27] = btnBoton27;
+        botones[28] = btnBoton28;
+        botones[29] = btnBoton29;
+        botones[30] = btnBoton30;
+        botones[31] = btnBoton31;
+        botones[32] = btnBoton32;
+        botones[33] = btnBoton33;
+        botones[34] = btnBoton34;
+        botones[35] = btnBoton35;
+    }
+    
+    private void mezclarCartas() {
+        int posicion = 0;
+        for (int i = 0; i < 18; i++) {
+            cartas[posicion] = i;
+            cartas[posicion + 1] = i;
+            posicion += 2;
+        }
+        
+        Random random = new Random();
+        for (int i = 35; i > 0; i--) {
+            int j = random.nextInt(i + 1);
+            int temp = cartas[i];
+            cartas[i] = cartas[j];
+            cartas[j] = temp;
+        }
+    }
+    
+    private void ponerListeners() {
+        for (int i = 0; i < 36; i++) {
+            final int num = i;
+            botones[i].addActionListener(new ActionListener() {
+                public void actionPerformed(ActionEvent e) {
+                    click(num);
+                }
+            });
+        }
+    }
 
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
