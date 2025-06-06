@@ -57,6 +57,13 @@ public class Memorama extends javax.swing.JFrame {
         btnBoton27 = new javax.swing.JButton();
         btnBoton28 = new javax.swing.JButton();
         btnBoton29 = new javax.swing.JButton();
+        lblIntentosRestantes = new javax.swing.JLabel();
+        btnBoton30 = new javax.swing.JButton();
+        btnBoton31 = new javax.swing.JButton();
+        btnBoton32 = new javax.swing.JButton();
+        btnBoton33 = new javax.swing.JButton();
+        btnBoton34 = new javax.swing.JButton();
+        btnBoton35 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -125,6 +132,21 @@ public class Memorama extends javax.swing.JFrame {
 
         btnBoton29.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/pokebola.jpeg"))); // NOI18N
 
+        lblIntentosRestantes.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        lblIntentosRestantes.setText("Intentos Restantes: ");
+
+        btnBoton30.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/pokebola.jpeg"))); // NOI18N
+
+        btnBoton31.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/pokebola.jpeg"))); // NOI18N
+
+        btnBoton32.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/pokebola.jpeg"))); // NOI18N
+
+        btnBoton33.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/pokebola.jpeg"))); // NOI18N
+
+        btnBoton34.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/pokebola.jpeg"))); // NOI18N
+
+        btnBoton35.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/pokebola.jpeg"))); // NOI18N
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -136,7 +158,7 @@ public class Memorama extends javax.swing.JFrame {
                         .addGap(126, 126, 126)
                         .addComponent(jLabel1))
                     .addGroup(layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGap(18, 18, 18)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(btnBoton6, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -197,15 +219,30 @@ public class Memorama extends javax.swing.JFrame {
                                 .addGap(18, 18, 18)
                                 .addComponent(btnBoton5, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(18, 18, 18)
-                                .addComponent(btnBoton4, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                .addContainerGap(18, Short.MAX_VALUE))
+                                .addComponent(btnBoton4, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(btnBoton30, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(btnBoton31, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(btnBoton32, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(btnBoton33, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(btnBoton34, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(btnBoton35, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(lblIntentosRestantes, javax.swing.GroupLayout.PREFERRED_SIZE, 294, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(layout.createSequentialGroup()
                 .addComponent(jLabel1)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 82, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(lblIntentosRestantes)
+                .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(btnBoton4, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(btnBoton2, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -245,6 +282,14 @@ public class Memorama extends javax.swing.JFrame {
                     .addComponent(btnBoton27, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(btnBoton24, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(btnBoton28, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 10, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(btnBoton35, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnBoton31, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnBoton32, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnBoton33, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnBoton30, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnBoton34, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap())
         );
 
@@ -311,6 +356,12 @@ public class Memorama extends javax.swing.JFrame {
     private javax.swing.JButton btnBoton28;
     private javax.swing.JButton btnBoton29;
     private javax.swing.JButton btnBoton3;
+    private javax.swing.JButton btnBoton30;
+    private javax.swing.JButton btnBoton31;
+    private javax.swing.JButton btnBoton32;
+    private javax.swing.JButton btnBoton33;
+    private javax.swing.JButton btnBoton34;
+    private javax.swing.JButton btnBoton35;
     private javax.swing.JButton btnBoton4;
     private javax.swing.JButton btnBoton5;
     private javax.swing.JButton btnBoton6;
@@ -319,5 +370,6 @@ public class Memorama extends javax.swing.JFrame {
     private javax.swing.JButton btnBoton9;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JLabel lblIntentosRestantes;
     // End of variables declaration//GEN-END:variables
 }
