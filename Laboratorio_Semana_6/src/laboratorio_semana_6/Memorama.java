@@ -274,7 +274,6 @@ public class Memorama extends javax.swing.JFrame {
         btnBoton35 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setResizable(false);
 
         jPanel1.setLayout(new java.awt.GridLayout(6, 6, 6, 6));
 
