@@ -4,15 +4,14 @@
  */
 package laboratorio_semana_6;
 
+import javax.swing.JButton;
+
 /**
  *
  * @author esteb
  */
 public class Memorama extends javax.swing.JFrame {
 
-    /**
-     * Creates new form Memorama
-     */
     public Memorama() {
         initComponents();
     }
@@ -28,6 +27,36 @@ public class Memorama extends javax.swing.JFrame {
 
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
+        btnBoton = new javax.swing.JButton();
+        btnBoton1 = new javax.swing.JButton();
+        btnBoton2 = new javax.swing.JButton();
+        btnBoton3 = new javax.swing.JButton();
+        btnBoton4 = new javax.swing.JButton();
+        btnBoton5 = new javax.swing.JButton();
+        btnBoton6 = new javax.swing.JButton();
+        btnBoton7 = new javax.swing.JButton();
+        btnBoton8 = new javax.swing.JButton();
+        btnBoton9 = new javax.swing.JButton();
+        btnBoton10 = new javax.swing.JButton();
+        btnBoton11 = new javax.swing.JButton();
+        btnBoton12 = new javax.swing.JButton();
+        btnBoton13 = new javax.swing.JButton();
+        btnBoton14 = new javax.swing.JButton();
+        btnBoton15 = new javax.swing.JButton();
+        btnBoton16 = new javax.swing.JButton();
+        btnBoton17 = new javax.swing.JButton();
+        btnBoton18 = new javax.swing.JButton();
+        btnBoton19 = new javax.swing.JButton();
+        btnBoton20 = new javax.swing.JButton();
+        btnBoton21 = new javax.swing.JButton();
+        btnBoton22 = new javax.swing.JButton();
+        btnBoton23 = new javax.swing.JButton();
+        btnBoton24 = new javax.swing.JButton();
+        btnBoton25 = new javax.swing.JButton();
+        btnBoton26 = new javax.swing.JButton();
+        btnBoton27 = new javax.swing.JButton();
+        btnBoton28 = new javax.swing.JButton();
+        btnBoton29 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -36,23 +65,187 @@ public class Memorama extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Papyrus", 0, 47)); // NOI18N
         jLabel1.setText("Juego de Memoria");
 
+        btnBoton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/pokebola.jpeg"))); // NOI18N
+
+        btnBoton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/pokebola.jpeg"))); // NOI18N
+
+        btnBoton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/pokebola.jpeg"))); // NOI18N
+
+        btnBoton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/pokebola.jpeg"))); // NOI18N
+
+        btnBoton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/pokebola.jpeg"))); // NOI18N
+
+        btnBoton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/pokebola.jpeg"))); // NOI18N
+
+        btnBoton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/pokebola.jpeg"))); // NOI18N
+
+        btnBoton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/pokebola.jpeg"))); // NOI18N
+
+        btnBoton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/pokebola.jpeg"))); // NOI18N
+
+        btnBoton9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/pokebola.jpeg"))); // NOI18N
+
+        btnBoton10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/pokebola.jpeg"))); // NOI18N
+
+        btnBoton11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/pokebola.jpeg"))); // NOI18N
+
+        btnBoton12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/pokebola.jpeg"))); // NOI18N
+
+        btnBoton13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/pokebola.jpeg"))); // NOI18N
+
+        btnBoton14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/pokebola.jpeg"))); // NOI18N
+
+        btnBoton15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/pokebola.jpeg"))); // NOI18N
+
+        btnBoton16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/pokebola.jpeg"))); // NOI18N
+
+        btnBoton17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/pokebola.jpeg"))); // NOI18N
+
+        btnBoton18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/pokebola.jpeg"))); // NOI18N
+
+        btnBoton19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/pokebola.jpeg"))); // NOI18N
+
+        btnBoton20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/pokebola.jpeg"))); // NOI18N
+
+        btnBoton21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/pokebola.jpeg"))); // NOI18N
+
+        btnBoton22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/pokebola.jpeg"))); // NOI18N
+
+        btnBoton23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/pokebola.jpeg"))); // NOI18N
+
+        btnBoton24.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/pokebola.jpeg"))); // NOI18N
+
+        btnBoton25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/pokebola.jpeg"))); // NOI18N
+
+        btnBoton26.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/pokebola.jpeg"))); // NOI18N
+
+        btnBoton27.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/pokebola.jpeg"))); // NOI18N
+
+        btnBoton28.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/pokebola.jpeg"))); // NOI18N
+
+        btnBoton29.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/pokebola.jpeg"))); // NOI18N
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(127, 127, 127)
-                .addComponent(jLabel1)
-                .addContainerGap(147, Short.MAX_VALUE))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(126, 126, 126)
+                        .addComponent(jLabel1))
+                    .addGroup(layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(btnBoton6, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(btnBoton7, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(btnBoton8, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(btnBoton9, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(btnBoton10, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(btnBoton11, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(btnBoton12, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(btnBoton13, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(btnBoton14, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(btnBoton15, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(btnBoton16, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(btnBoton17, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(btnBoton18, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(btnBoton19, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(btnBoton20, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(btnBoton21, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(btnBoton22, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(btnBoton23, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(btnBoton24, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(btnBoton25, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(btnBoton26, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(btnBoton27, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(btnBoton28, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(btnBoton29, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(btnBoton3, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(btnBoton2, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(btnBoton, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(btnBoton1, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(btnBoton5, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(btnBoton4, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                .addContainerGap(18, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(layout.createSequentialGroup()
-                .addGap(26, 26, 26)
                 .addComponent(jLabel1)
-                .addContainerGap(548, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 82, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(btnBoton4, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnBoton2, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnBoton, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnBoton1, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnBoton3, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnBoton5, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(btnBoton11, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnBoton7, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnBoton8, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnBoton9, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnBoton6, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnBoton10, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(btnBoton17, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnBoton13, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnBoton14, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnBoton15, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnBoton12, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnBoton16, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(btnBoton23, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnBoton19, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnBoton20, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnBoton21, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnBoton18, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnBoton22, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(btnBoton29, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnBoton25, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnBoton26, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnBoton27, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnBoton24, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnBoton28, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap())
         );
 
         pack();
@@ -94,6 +287,36 @@ public class Memorama extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton btnBoton;
+    private javax.swing.JButton btnBoton1;
+    private javax.swing.JButton btnBoton10;
+    private javax.swing.JButton btnBoton11;
+    private javax.swing.JButton btnBoton12;
+    private javax.swing.JButton btnBoton13;
+    private javax.swing.JButton btnBoton14;
+    private javax.swing.JButton btnBoton15;
+    private javax.swing.JButton btnBoton16;
+    private javax.swing.JButton btnBoton17;
+    private javax.swing.JButton btnBoton18;
+    private javax.swing.JButton btnBoton19;
+    private javax.swing.JButton btnBoton2;
+    private javax.swing.JButton btnBoton20;
+    private javax.swing.JButton btnBoton21;
+    private javax.swing.JButton btnBoton22;
+    private javax.swing.JButton btnBoton23;
+    private javax.swing.JButton btnBoton24;
+    private javax.swing.JButton btnBoton25;
+    private javax.swing.JButton btnBoton26;
+    private javax.swing.JButton btnBoton27;
+    private javax.swing.JButton btnBoton28;
+    private javax.swing.JButton btnBoton29;
+    private javax.swing.JButton btnBoton3;
+    private javax.swing.JButton btnBoton4;
+    private javax.swing.JButton btnBoton5;
+    private javax.swing.JButton btnBoton6;
+    private javax.swing.JButton btnBoton7;
+    private javax.swing.JButton btnBoton8;
+    private javax.swing.JButton btnBoton9;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables

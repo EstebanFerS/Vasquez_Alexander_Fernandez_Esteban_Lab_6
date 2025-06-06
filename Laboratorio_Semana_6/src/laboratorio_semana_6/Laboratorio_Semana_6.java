@@ -11,7 +11,9 @@ package laboratorio_semana_6;
 public class Laboratorio_Semana_6 {
 
     public static void main(String[] args) {
-        
+        Memorama memoroma = new Memorama();
+        memoroma.setLocationRelativeTo(null);
+        memoroma.setVisible(true);
     }
     
 }
