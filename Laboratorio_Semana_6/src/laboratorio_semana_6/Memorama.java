@@ -165,6 +165,49 @@ public class Memorama extends javax.swing.JFrame {
         primera = -1;
         segunda = -1;
         esperando = false;
+        verificarJuego();
+    }
+
+    private void verificarJuego() {
+        if (verificarGanaste()) {
+            terminado = true;
+            mostrarGanaste();
+        } else if (verificarPerdiste()) {
+            terminado = true;
+            mostrarPerdiste();
+        }
+    }
+
+    private boolean verificarGanaste() {
+        for (int i = 0; i < 36; i++) {
+            if (!correctas[i]) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    private boolean verificarPerdiste() {
+        return intentos >= 30;
+    }
+
+    private void mostrarGanaste() {
+        JOptionPane.showMessageDialog(this, "Ganaste! En " + intentos + " intentos!");
+        preguntarJugarOtravez();
+    }
+
+    private void mostrarPerdiste() {
+        JOptionPane.showMessageDialog(this, "Perdiste! Se acabaron los intentos");
+        preguntarJugarOtravez();
+    }
+
+    private void preguntarJugarOtravez() {
+        int respuesta = JOptionPane.showConfirmDialog(this, "¿Quieres jugar otra vez?", "Juego Terminado", JOptionPane.YES_NO_OPTION);
+        if (respuesta == JOptionPane.YES_OPTION) {
+            reiniciarJuego();
+        } else {
+            System.exit(0);
+        }
     }
     
     @SuppressWarnings("unchecked")
