@@ -166,7 +166,7 @@ public class Memorama extends javax.swing.JFrame {
         segunda = -1;
         esperando = false;
     }
-
+    
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
